@@ -47,7 +47,18 @@ Make sure the app runs on port 8000.
 ```
 This will install the necessary node modules required to run the application.
 
-### 6. Run the Frontend App
+### 6. Creating Environment File
+```bash
+> touch .env
+```
+
+Add the below line to the file, this will treat APP_BASE_URL as environment variable
+
+```
+APP_BASE_URL=http://127.0.0.1:8000/
+```
+
+### 7. Run the Frontend App
 ```bash
 > quasar dev
 ```
