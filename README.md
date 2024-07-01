@@ -62,3 +62,5 @@ APP_BASE_URL=http://127.0.0.1:8000/
 ```bash
 > quasar dev
 ```
+
+### Note: I have used external API to fetch the News. Kindly replace the **NEWS_API_KEY** present in *django_app/settings.py* with your actual api-key to use the API.
