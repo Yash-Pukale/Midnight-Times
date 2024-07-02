@@ -41,6 +41,13 @@ Note: Remember the credentials used to create the superuser. We will be using th
 Make sure the app runs on port 8000.
 
 ### 5. Set up the Frontend App(VueJs + Quasar Framework)
+If Quasar is not installed on your machine then first install it,
+
+```bash
+> npm install -g @quasar/cli
+```
+once done, then begin with below steps.
+
 ```bash
 > cd quasar-app
 > npm install
